@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'" />
+	<script src="./app/libs/angular.min.js"></script>
+	<script src="./app/libs/angular-route.min.js"></script>
+	<!-- Produccion -->
+	<!-- <script src="./dest/main.min.js"></script> -->
+
+	<title>AngularJS Template</title>
+</head>
+<body>
+	<div ng-view></div>
+
+	<!-- Desarrollo -->
+	
+	<!-- app -->
+	<script src="./app/app.js"></script>
+	<script src="./app/config.js"></script>
+	<script src="./app/constants.js"></script>
+
+	<!-- services -->
+	<script src="./app/services/httpRequestInterceptor.service.js"></script>
+	<script src="./app/services/test.service.js"></script>
+
+	<!-- directives -->
+	<script src="./app/directives/test.directive.js"></script>
+
+	<!-- controllers -->
+	<script src="./app/controllers/test.controller.js"></script>
+</body>
+</html>
