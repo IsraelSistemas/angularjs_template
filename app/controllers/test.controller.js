@@ -13,7 +13,7 @@
 		vm.token = "token";
 
 		// funciones 
-		vm.holaMundo = holaMundo;
+		vm.getToken = getToken;
 
 		// variables 
 		vm.test = "test";
@@ -24,7 +24,7 @@
 			// variables o funciones que se inicializan junto al controlador
 		}
 
-		function holaMundo(e) {
+		function getToken(e) {
 			testFactory.getToken().then(function(response) {
 				vm.token = response;
 			}).catch(function(error) {

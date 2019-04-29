@@ -2,6 +2,9 @@
 	"name": "angularjs_template",
 	"version": "1.0.0",
 	"description": "AngularJS template",
+	"private": true,
+	"type": "git",
+	"url": "git://github.com/IsraelSistemas/angularjs_template.git",
 	"main": "gulpfile.js",
 	"scripts": {},
 	"keywords": [

@@ -3,7 +3,7 @@
 	"use strict";
 
 	angular
-		.module("belove")
+		.module("app")
 		.factory("testFactory", testFactory);
 
 	testFactory.$inject = ["$http", "$q", "config"];

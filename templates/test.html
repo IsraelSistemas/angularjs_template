@@ -1,9 +1,10 @@
 <div ng-controller="testController as vm">
-	<button ng-click="vm.holaMundo($event);">obtener token</button>
+	<button ng-click="vm.getToken($event);">obtener token</button>
 
 	<p>{{ vm.token }}</p>
 </div>
 
 <div>
 	<test-directive></test-directive>
+	<md-button class="md-raised md-warn">Warn</md-button>
 </div>

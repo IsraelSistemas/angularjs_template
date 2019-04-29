@@ -2,7 +2,7 @@
 	"use strict";
 
 	angular
-		.module("belove")
+		.module("app")
 		.factory("httpRequestInterceptor", interceptor);
 
 	interceptor.$inject = ["$q"];

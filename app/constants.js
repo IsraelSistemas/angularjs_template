@@ -5,6 +5,6 @@
 	angular
 		.module("app")
 		.constant("config", {
-			apiUrl: ""
+			apiUrl: "apiUrl"
 		});
 })();
