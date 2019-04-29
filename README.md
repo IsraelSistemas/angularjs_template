@@ -2,6 +2,11 @@
 
 This template includes Angular Material (latest version) and works with Gulp to create a local server and see the changes in real time.
 
+## Information
+
+Author:   @IsraelSistemas
+channel:  [IsraelSistemas](https://www.youtube.com/user/IsraelSistemas1/)
+
 ### Installation
 
 To use this template requires [Node.js](https://nodejs.org/) to run and follow the next steps.
