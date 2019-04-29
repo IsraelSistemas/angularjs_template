@@ -5,7 +5,7 @@ This template includes Angular Material (latest version) and works with Gulp to 
 ## Information
 
 Author:   @IsraelSistemas
-channel:  [IsraelSistemas](https://www.youtube.com/user/IsraelSistemas1/)
+Channel:  [IsraelSistemas](https://www.youtube.com/user/IsraelSistemas1/)
 
 ### Installation
 
